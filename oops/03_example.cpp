@@ -5,8 +5,8 @@ using namespace std;
 
 class Rectangle{
     public:
-        int length;
-        int breadth;
+        unsigned int length;
+        unsigned int breadth;
 
         int area(){
             return length*breadth;
@@ -26,5 +26,6 @@ int main(){
     printf("Area of rectangle is %d\n",ptr -> area());
     printf("Perimeter of rectangle is %d\n", ptr -> perimeter());
 
+    delete ptr;
     return 0;
 }
