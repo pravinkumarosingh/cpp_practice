@@ -1,3 +1,5 @@
+// creating pointer object inside heap memory
+
 #include<iostream>
 using namespace std;
 
@@ -16,10 +18,13 @@ class Rectangle{
 };
 
 int main(){
-    Rectangle r1;
-    r1.length=10;
-    r1.breadth=5;
-    printf("Area of rectangle is %d\n",r1.area());
-    printf("Perimeter of rectangle is %d\n", r1.perimeter());
+    Rectangle *ptr = new Rectangle();
+
+    ptr -> length=10;
+    ptr -> breadth=5;
+
+    printf("Area of rectangle is %d\n",ptr -> area());
+    printf("Perimeter of rectangle is %d\n", ptr -> perimeter());
+
     return 0;
 }
