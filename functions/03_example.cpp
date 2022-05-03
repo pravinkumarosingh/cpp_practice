@@ -1,4 +1,4 @@
-//function overloading
+//function overloading - a function with same name but with different data type parameters or different length of parameters
 
 #include<iostream>
 using namespace std;

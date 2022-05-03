@@ -5,8 +5,8 @@ using namespace std;
 
 class Rectangle{
     public:
-        unsigned int length;
-        unsigned int breadth;
+        unsigned short int length;
+        unsigned short int breadth;
 
         int area(){
             return length*breadth;
