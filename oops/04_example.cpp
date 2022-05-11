@@ -16,6 +16,7 @@ class Rectangle{
             if (l>=0)
                 length = l;
             else
+                printf("length cannot be less than zero\n");
                 length = 1;
             
         }
@@ -24,6 +25,7 @@ class Rectangle{
              if (b>=0)
                 breadth = b;
             else
+                printf("breadth cannot be less than zero\n");
                 breadth = 1;
         }
 
