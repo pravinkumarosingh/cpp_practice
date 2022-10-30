@@ -12,6 +12,8 @@ int main(){
     myStack.push(2);
     myStack.push(3);
 
+    cout << "Is Empty -> " << myStack.empty() << "\n";
+
     while(!myStack.empty()){
         cout << myStack.top() << " ";
         myStack.pop();
